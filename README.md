@@ -69,14 +69,13 @@ Each dataset includes:
 * Protocol information
 * Target label: **Benign (0) / Malicious (1)**
 
----
 📥 Dataset Access
 
 Due to file size limitations on GitHub, the datasets used in this project are not included in the repository.
 
 They can be accessed through the following link:
 
-👉 Download Dataset
+👉 Download Dataset : https://drive.google.com/drive/folders/1QHhjL0muKQa_dtk52HXc6WW7MTUyG1nR?usp=sharing
 
 Alternative Sources
 
@@ -84,6 +83,7 @@ If the link is unavailable, the datasets are derived from:
 
 5G/6G network traffic simulation datasets
 IoT network intrusion detection datasets (similar to CICIDS2017 or UNSW-NB15)
+---
 ## Data Preprocessing Pipeline
 
 The following steps were applied:
