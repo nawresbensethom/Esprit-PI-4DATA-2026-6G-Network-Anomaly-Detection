@@ -180,7 +180,7 @@ pip install -r requirements.txt
 
 ---
 
-## Contributors
+## Supervisors
 
 * Bouraoui Rahma
 * Cherif Safa
