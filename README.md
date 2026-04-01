@@ -27,7 +27,7 @@ This project addresses:
 * ✅ Feature engineering (log transformations, correlation filtering)
 * ✅ Categorical encoding (One-Hot Encoding)
 * ✅ Multi-dataset analysis (5G traffic scenarios)
-* ✅ Machine Learning-based anomaly detection
+* ✅ Machine Learning-based anomaly detection+DL for unlabeled 6G datset
 * ✅ Balanced dataset evaluation and performance metrics
 
 ---
@@ -68,6 +68,7 @@ Each dataset includes:
 * Network traffic features (packets, bytes, latency, etc.)
 * Protocol information
 * Target label: **Benign (0) / Malicious (1)**
+Also 6G datset
 
 Dataset Access
 
@@ -99,11 +100,11 @@ The following steps were applied:
 
 * **Binary Classification** (Benign vs Malicious)
 
-### Models (recommended / used)
+### Models used
 
 * Logistic Regression
 * Random Forest
-* XGBoost (optional)
+* XGBoost 
 * Isolation Forest (for anomaly detection scenario)
 
 ### Evaluation Metrics
@@ -118,13 +119,11 @@ The following steps were applied:
 
 ## Results
 
-*(To be updated after training)*
+5G best model XGboost:
 
-Example:
-
-* Accuracy: XX%
-* F1-Score: XX%
-* ROC-AUC: XX%
+* Accuracy: 99%
+* F1-Score: 94%
+* ROC-AUC: 98%
 
 ---
 
