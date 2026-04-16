@@ -1,6 +1,32 @@
+# Environment — only ignore the real secrets file, not the template
 .env
-.env.example
+
+# Python
 **/__pycache__/
 **/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/.mypy_cache/
+**/*.egg-info/
+**/dist/
+**/build/
+**/.venv/
+**/venv/
+
+# Node / Next.js
 **/node_modules/
 **/.next/
+**/out/
+**/npm-debug.log*
+
+# Docker volumes (if accidentally created locally)
+pgdata/
+miniodata/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
